@@ -1,7 +1,7 @@
 
 import json
 
-with open("/Users/corinnefogarty/json-practice/practice/schacon.repos.json", 'r') as file:
+with open("/Users/corinnefogarty/json-practice/data/schacon.repos.json", 'r') as file:
     data = json.load(file)
 
 with open('chacon.csv', 'w') as csv_file:
